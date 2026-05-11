@@ -21,6 +21,7 @@ main{
     src: url(./fonts/GeneralSans-Extralight.otf);
 }
 
+/* NAV-BAR START*/
 nav{
     display: flex;
     align-items: center;
@@ -74,3 +75,124 @@ nav{
         font-family: 'Courier New', Courier, monospace;
       font-weight: 100;
 }
+/* NAV-BAR END */
+
+
+/* MAIN WORK infos,jacket-img,Size START */
+
+header{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#start{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+    
+}
+
+.inner1 h5{
+    color: orange;
+      
+        font-size: 1em;
+        
+}
+
+
+.inner1 h1{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 3em;
+}
+#ii{
+color: orange;
+}
+.inner1{
+    display: flex;
+ justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+}
+.inner1 h4{
+    font-family: thin;
+    font-size: 2em;
+    font-family: 800;
+}
+.inner1 h3{
+font-family: thin;
+}
+
+.discrip{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.discrip h3{
+font-size: 0.8em;
+}
+.discrip p{
+font-size: 0.8em;
+}
+
+
+#bli{
+    color: orange;
+}
+
+#material{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(188, 188, 188);
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#material h3{
+font-size: 1em;
+}
+#material1{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgb(188, 188, 188);
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none; */
+}
+#material1 h3{
+font-size: 1em;
+}
+#middle{
+    /* background-color: lightblue; */
+     width: 210%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+#middle img{
+    width: 120%;
+    height: 120%;
+    transition: all ease-in-out 1s;
+    position: absolute;
+    top: 10px;
+}
+
+#end{
+background-color: blue;
+     width: 100%;
+    height: 100%;
+}
+
+
+
+

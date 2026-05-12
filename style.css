@@ -82,7 +82,7 @@ nav{
 
 header{
     width: 100%;
-    height: 70%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,7 +181,7 @@ font-size: 1em;
 }
 #middle img{
     width: 170%;
-    height: 120%;
+    height: 80%;
     transition: all ease-in-out 1s;
     position: absolute;
     top: 10px;
@@ -196,6 +196,7 @@ font-size: 1em;
     flex-direction: column;
     padding: 50px;
     gap: 20px;
+    text-align: center;
 }
 
 #minibox{
@@ -214,6 +215,86 @@ background-color: orange;
 color: white;
 }
 
+#end h3{
+    font-family: thin;
+    font-size: 1em;
+    border: 1px solid rgb(178, 178, 178);
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#imgbox{
+    transform: translate(80px,0px);
+    width: 60%;
+    /* background-color: aqua;  */
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.boxxxx{
+    width: 45%;
+   
+}
+
+.boxxxx img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#add{
+    width: 70%;
+    /* background-color: crimson; */
+
+}
+#blah{
+    transform: translate(55px,0px);
+    display: flex;
+    justify-content:center;
+gap: 30px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#add1{
+    width: 70%;
+    /* background-color: crimson; */
+
+}
+#blah1{
+    margin-top: 10px;
+    transform: translate(55px,0px);
+    display: flex;
+    justify-content:center;
+gap: 30px;
+    align-items: center;
+    background-color: orange;
+
+    border-radius: 20px;
+    padding: 10px;
+    font-family: thin;
+    color: white;
+}
+
+
+.section{
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+}
 
 
 
